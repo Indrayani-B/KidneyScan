@@ -1,0 +1,54 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1766073528499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1766073571668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,24 +48,9 @@\n | Deployment | Docker |\r\n \r\n ---\r\n  \r\n-# Kidney-Disease-Classification-MLflow-DVC\r\n-\r\n-\r\n-## Workflows\r\n-\r\n-1. Update config.yaml\r\n-2. Update secrets.yaml [Optional]\r\n-3. Update params.yaml\r\n-4. Update the entity\r\n-5. Update the configuration manager in src config\r\n-6. Update the components\r\n-7. Update the pipeline \r\n-8. Update the main.py\r\n-9. Update the dvc.yaml\r\n-10. app.py\r\n-\r\n+ \r\n # How to run?\r\n ### STEPS:\r\n \r\n Clone the repository\r\n"
+                },
+                {
+                    "date": 1766073577574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,16 +48,16 @@\n | Deployment | Docker |\r\n \r\n ---\r\n  \r\n- \r\n+\r\n # How to run?\r\n ### STEPS:\r\n \r\n Clone the repository\r\n \r\n ```bash\r\n-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project\r\n+https://github.com/ /Kidney-Disease-Classification-Deep-Learning-Project\r\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n"
+                },
+                {
+                    "date": 1766073583980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n \r\n Clone the repository\r\n \r\n ```bash\r\n-https://github.com/ /Kidney-Disease-Classification-Deep-Learning-Project\r\n+https://github.com/Indrayani-B/Kidney-Disease-Classification-Deep-Learning-Project\r\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n"
+                },
+                {
+                    "date": 1766073591165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n \r\n Clone the repository\r\n \r\n ```bash\r\n-https://github.com/Indrayani-B/Kidney-Disease-Classification-Deep-Learning-Project\r\n+https://github.com/Indrayani-B/Kidney \r\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n"
+                },
+                {
+                    "date": 1766073638869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,14 +55,14 @@\n \r\n Clone the repository\r\n \r\n ```bash\r\n-https://github.com/Indrayani-B/Kidney \r\n+https://github.com/Indrayani-B/KidneyScan \r\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n-conda create -n cnncls python=3.8 -y\r\n+conda create -n cnncls python=3.9 -y\r\n ```\r\n \r\n ```bash\r\n conda activate cnncls\r\n"
+                },
+                {
+                    "date": 1766073668509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n-conda create -n cnncls python=3.9 -y\r\n+conda create -n  python=3.9 -y\r\n ```\r\n \r\n ```bash\r\n conda activate cnncls\r\n"
+                },
+                {
+                    "date": 1766073678586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n ```\r\n ### STEP 01- Create a conda environment after opening the repository\r\n \r\n ```bash\r\n-conda create -n  python=3.9 -y\r\n+conda create -n kidney python=3.9 -y\r\n ```\r\n \r\n ```bash\r\n conda activate cnncls\r\n"
+                },
+                {
+                    "date": 1766073690981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n conda create -n kidney python=3.9 -y\r\n ```\r\n \r\n ```bash\r\n-conda activate cnncls\r\n+conda activate kidney\r\n ```\r\n \r\n \r\n ### STEP 02- install the requirements\r\n"
+                },
+                {
+                    "date": 1766073759545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,9 @@\n \r\n \r\n \r\n \r\n-## MLflow\r\n+<!-- ## MLflow\r\n \r\n - [Documentation](https://mlflow.org/docs/latest/index.html)\r\n \r\n - [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)\r\n@@ -213,8 +213,8 @@\n     AWS_REGION = us-east-1\r\n \r\n     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com\r\n \r\n-    ECR_REPOSITORY_NAME = simple-app\r\n+    ECR_REPOSITORY_NAME = simple-app -->\r\n \r\n \r\n \r\n"
+                }
+            ],
+            "date": 1766073528499,
+            "name": "Commit-0",
+            "content": "# 🩺 Kidney Disease Classification using Deep Learning\r\n\r\nAn end-to-end Deep Learning project for **classifying kidney diseases from CT scan images**.\r\nThe model predicts one of the following classes:\r\n\r\n- **Cyst**\r\n- **Tumor**\r\n- **Stone**\r\n- **Normal**\r\n\r\nThis project is designed with **research, reproducibility, and deployment** in mind.\r\n\r\n---\r\n\r\n## 📌 Project Overview\r\n\r\nEarly detection of kidney diseases is critical for effective treatment.\r\nThis project uses **Transfer Learning with CNN architectures** to automate kidney disease classification from CT scans.\r\n\r\nThe pipeline is structured to be **production-ready**, scalable, and easy to extend.\r\n\r\n---\r\n\r\n## ✨ Key Features\r\n\r\n- 🔹 **Deep Learning–based CT Scan Classification**\r\n- 🔹 **Transfer Learning (EfficientNet / CNN-based models)**\r\n- 🔹 **Modular & Clean Codebase**\r\n- 🔹 **MLflow Integration** for experiment tracking\r\n- 🔹 **DVC** for dataset version control\r\n- 🔹 **Flask Web App** for predictions\r\n- 🔹 **Docker-ready** for deployment\r\n- 🔹 **CI/CD friendly** (GitHub Actions compatible)\r\n\r\n---\r\n\r\n## 🏗️ Tech Stack\r\n\r\n| Category | Tools |\r\n|--------|------|\r\n| Language | Python 3.8+ |\r\n| Deep Learning | TensorFlow, Keras |\r\n| Data Handling | NumPy, Pandas |\r\n| Experiment Tracking | MLflow |\r\n| Data Versioning | DVC |\r\n| Web Framework | Flask |\r\n| Visualization | Matplotlib, Seaborn |\r\n| Deployment | Docker |\r\n\r\n---\r\n \r\n# Kidney-Disease-Classification-MLflow-DVC\r\n\r\n\r\n## Workflows\r\n\r\n1. Update config.yaml\r\n2. Update secrets.yaml [Optional]\r\n3. Update params.yaml\r\n4. Update the entity\r\n5. Update the configuration manager in src config\r\n6. Update the components\r\n7. Update the pipeline \r\n8. Update the main.py\r\n9. Update the dvc.yaml\r\n10. app.py\r\n\r\n# How to run?\r\n### STEPS:\r\n\r\nClone the repository\r\n\r\n```bash\r\nhttps://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project\r\n```\r\n### STEP 01- Create a conda environment after opening the repository\r\n\r\n```bash\r\nconda create -n cnncls python=3.8 -y\r\n```\r\n\r\n```bash\r\nconda activate cnncls\r\n```\r\n\r\n\r\n### STEP 02- install the requirements\r\n```bash\r\npip install -r requirements.txt\r\n```\r\n\r\n```bash\r\n# Finally run the following command\r\npython app.py\r\n```\r\n\r\nNow,\r\n```bash\r\nopen up you local host and port\r\n```\r\n\r\n\r\n\r\n\r\n\r\n\r\n## MLflow\r\n\r\n- [Documentation](https://mlflow.org/docs/latest/index.html)\r\n\r\n- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)\r\n\r\n##### cmd\r\n- mlflow ui\r\n\r\n### dagshub\r\n[dagshub](https://dagshub.com/)\r\n\r\nMLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \\\r\nMLFLOW_TRACKING_USERNAME=entbappy \\\r\nMLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \\\r\npython script.py\r\n\r\nRun this to export as env variables:\r\n\r\n```bash\r\n\r\nexport MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow\r\n\r\nexport MLFLOW_TRACKING_USERNAME=entbappy \r\n\r\nexport MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0\r\n\r\n```\r\n\r\n\r\n### DVC cmd\r\n\r\n1. dvc init\r\n2. dvc repro\r\n3. dvc dag\r\n\r\n\r\n## About MLflow & DVC\r\n\r\nMLflow\r\n\r\n - Its Production Grade\r\n - Trace all of your expriements\r\n - Logging & taging your model\r\n\r\n\r\nDVC \r\n\r\n - Its very lite weight for POC only\r\n - lite weight expriements tracker\r\n - It can perform Orchestration (Creating Pipelines)\r\n\r\n\r\n\r\n# AWS-CICD-Deployment-with-Github-Actions\r\n\r\n## 1. Login to AWS console.\r\n\r\n## 2. Create IAM user for deployment\r\n\r\n\t#with specific access\r\n\r\n\t1. EC2 access : It is virtual machine\r\n\r\n\t2. ECR: Elastic Container registry to save your docker image in aws\r\n\r\n\r\n\t#Description: About the deployment\r\n\r\n\t1. Build docker image of the source code\r\n\r\n\t2. Push your docker image to ECR\r\n\r\n\t3. Launch Your EC2 \r\n\r\n\t4. Pull Your image from ECR in EC2\r\n\r\n\t5. Lauch your docker image in EC2\r\n\r\n\t#Policy:\r\n\r\n\t1. AmazonEC2ContainerRegistryFullAccess\r\n\r\n\t2. AmazonEC2FullAccess\r\n\r\n\t\r\n## 3. Create ECR repo to store/save docker image\r\n    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken\r\n\r\n\t\r\n## 4. Create EC2 machine (Ubuntu) \r\n\r\n## 5. Open EC2 and Install docker in EC2 Machine:\r\n\t\r\n\t\r\n\t#optinal\r\n\r\n\tsudo apt-get update -y\r\n\r\n\tsudo apt-get upgrade\r\n\t\r\n\t#required\r\n\r\n\tcurl -fsSL https://get.docker.com -o get-docker.sh\r\n\r\n\tsudo sh get-docker.sh\r\n\r\n\tsudo usermod -aG docker ubuntu\r\n\r\n\tnewgrp docker\r\n\t\r\n# 6. Configure EC2 as self-hosted runner:\r\n    setting>actions>runner>new self hosted runner> choose os> then run command one by one\r\n\r\n\r\n# 7. Setup github secrets:\r\n\r\n    AWS_ACCESS_KEY_ID=\r\n\r\n    AWS_SECRET_ACCESS_KEY=\r\n\r\n    AWS_REGION = us-east-1\r\n\r\n    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com\r\n\r\n    ECR_REPOSITORY_NAME = simple-app\r\n\r\n\r\n\r\n"
+        }
+    ]
+}

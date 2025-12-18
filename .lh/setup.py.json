@@ -1,0 +1,22 @@
+{
+    "sourceFile": "setup.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1766071417915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1766071424004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+import setuptools\r\n+\r\n+with open(\"README.md\", \"r\", encoding=\"utf-8\") as f:\r\n+    long_description = f.read()\r\n+    \r\n+\r\n+__version__ = \"0.0.0\"\r\n+\r\n+REPO_NAME = \"KidneyScan\"\r\n+Author_USER = \"Indrayani-B\"\r\n+SRC_REPO = \"cnnClassifier\"\r\n+Author_EMAIL = \"indrayanibhujade378@gmail.com\"\r\n+\r\n+\r\n+setuptools.setup(\r\n+    name=SRC_REPO,\r\n+    version=__version__,\r\n+    author=Author_USER,\r\n+    author_email=Author_EMAIL,\r\n+    description=\"A small python package for CNN based image classification\",\r\n+    long_description=long_description,\r\n+    long_description_content=\"text/markdown\",\r\n+    url=f\"https://github.com/{Author_USER}/{REPO_NAME}\",\r\n+    project_urls={\r\n+        \"Bug Tracker\": f\"https://github.com/{Author_USER}/{REPO_NAME}/issues\",\r\n+    },\r\n+    package_dir={\"\": \"src\"},\r\n+    packages=setuptools.find_packages(where=\"src\")\r\n+)\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1766071417915,
+            "name": "Commit-0",
+            "content": "import setuptools\r\n\r\nwith open(\"README.md\", \"r\", encoding=\"utf-8\") as f:\r\n    long_description = f.read()\r\n    \r\n\r\n__version__ = \"0.0.0\"\r\n\r\nREPO_NAME = \"KidneyScan\"\r\nAuthor_USER = \"Indrayani-B\"\r\nSRC_REPO = \"cnnClassifier\"\r\nAuthor_EMAIL = \"indrayanibhujade378@gmail.com\"\r\n\r\n\r\nsetuptools.setup(\r\n    name=SRC_REPO,\r\n    version=__version__,\r\n    author=Author_USER,\r\n    author_email=Author_EMAIL,\r\n    description=\"A small python package for CNN based image classification\",\r\n    long_description=long_description,\r\n    long_description_content=\"text/markdown\",\r\n    url=f\"https://github.com/{Author_USER}/{REPO_NAME}\",\r\n    project_urls={\r\n        \"Bug Tracker\": f\"https://github.com/{Author_USER}/{REPO_NAME}/issues\",\r\n    },\r\n    package_dir={\"\": \"src\"},\r\n    packages=setuptools.find_packages(where=\"src\")\r\n)"
+        }
+    ]
+}

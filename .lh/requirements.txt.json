@@ -1,0 +1,22 @@
+{
+    "sourceFile": "requirements.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1766073419351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1766073438527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n pandas\r\n dvc\r\n mlflow==2.2.2\r\n \r\n-notebook==7.3.3\r\n+notebook \r\n matplotlib\r\n seaborn\r\n python-box==6.0.2\r\n pyYAML\r\n"
+                }
+            ],
+            "date": 1766073419351,
+            "name": "Commit-0",
+            "content": "tensorflow == 2.12.0\r\nnumpy \r\npandas\r\ndvc\r\nmlflow==2.2.2\r\n\r\nnotebook==7.3.3\r\nmatplotlib\r\nseaborn\r\npython-box==6.0.2\r\npyYAML\r\ntqdm\r\nensure == 1.0.2\r\njoblib\r\ntypes-PyYAML\r\nscipy\r\nflask\r\nflask-cors\r\ngdown\r\n-e . "
+        }
+    ]
+}
