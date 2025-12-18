@@ -38,7 +38,7 @@ The pipeline is structured to be **production-ready**, scalable, and easy to ext
 
 | Category | Tools |
 |--------|------|
-| Language | Python 3.8+ |
+| Language | Python 3.9+ |
 | Deep Learning | TensorFlow, Keras |
 | Data Handling | NumPy, Pandas |
 | Experiment Tracking | MLflow |
