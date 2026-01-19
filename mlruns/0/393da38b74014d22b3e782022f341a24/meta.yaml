@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/asdaw/desktop/projects/KidneyScan/mlruns/0/393da38b74014d22b3e782022f341a24/artifacts
+end_time: 1768838411939
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 393da38b74014d22b3e782022f341a24
+run_name: capricious-shoat-747
+run_uuid: 393da38b74014d22b3e782022f341a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768838385135
+status: 3
+tags: []
+user_id: asdaw

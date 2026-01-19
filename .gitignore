@@ -160,3 +160,8 @@ cython_debug/
 #.idea/
 
 artifacts/*
+.lh/*
+.vscode/
+README.md.json
+requirements.txt.json
+setup.py.json
