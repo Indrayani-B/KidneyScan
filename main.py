@@ -5,10 +5,10 @@ from src.cnnClassifier.pipeline.stage_03_model_training import ModelTrainingPipe
 from src.cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 STAGE_NAME = "Data Ingestion Stage"
 try:
-    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-    obj = DataIngestionTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = DataIngestionTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(e)
     raise e
@@ -16,12 +16,11 @@ except Exception as e:
 
 STAGE_NAME = "Prepare Base Model  "
 try:
-    logger.info(f"*************************")
-    logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-    obj = PrepareBaseModelTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<\n\nx==========x")
-
+    logger.info(f"*******************")
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+    prepare_base_model.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(e)
     raise e
@@ -29,11 +28,11 @@ except Exception as e:
 
 STAGE_NAME = "Model Training"
 try:
-    logger.info(f"*************************")
-    logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-    obj = ModelTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<\n\nx==========x")
+    logger.info(f"*******************")
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    model_trainer = ModelTrainingPipeline()
+    model_trainer.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(e)
     raise e
@@ -43,8 +42,8 @@ STAGE_NAME = "Model Evaluation Stage"
 try:
     logger.info(f"*************************")
     logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-    obj = EvaluationPipeline()
-    obj.main()
+    model_evaluation = EvaluationPipeline()
+    model_evaluation.main()
     logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<\n\nx==========x")
     
 except Exception as e:
