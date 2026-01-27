@@ -9,7 +9,7 @@ class PredictionPipeline:
     def predict(self):
         # Load model ONCE per request (we'll optimize later)
         model = tf.keras.models.load_model(
-            os.path.join("artifacts", "training", "trained_model.h5")
+            os.path.join("model", "trained_model.h5") # made new directory for model files as we do not passed artifact folder so it will throw error of file not found
         )
 
         # Load and preprocess image (CORRECT API)
