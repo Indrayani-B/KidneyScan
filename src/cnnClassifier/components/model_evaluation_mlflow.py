@@ -1,3 +1,4 @@
+import os
 import tensorflow as tf
 from pathlib import Path
 import mlflow
@@ -49,6 +50,17 @@ class Evaluation:
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
+        os.environ["MLFLOW_TRACKING_URI"] = self.config.mlflow_uri
+        os.environ["MLFLOW_TRACKING_USERNAME"] = "indrayanibhujade378"
+        os.environ["MLFLOW_TRACKING_PASSWORD"] = "3dfc0c8a648cc74392644e38d6a4e5706441457d"
+        
+        mlflow.set_tracking_uri(self.config.mlflow_uri)
+        mlflow.set_registry_uri(self.config.mlflow_uri)
+        mlflow.set_experiment("Default")
+    
+        tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        print("MLflow tracking URI:", mlflow.get_tracking_uri())
+               
         with mlflow.start_run():
             mlflow.log_params(self.config.all_params)
             mlflow.log_metrics(
