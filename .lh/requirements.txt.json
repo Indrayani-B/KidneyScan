@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1766073419351,
@@ -12,6 +12,10 @@
                 {
                     "date": 1766073438527,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n pandas\r\n dvc\r\n mlflow==2.2.2\r\n \r\n-notebook==7.3.3\r\n+notebook \r\n matplotlib\r\n seaborn\r\n python-box==6.0.2\r\n pyYAML\r\n"
+                },
+                {
+                    "date": 1769514551453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n tensorflow == 2.12.0\r\n numpy \r\n pandas\r\n-dvc  \r\n+dvc  #\r\n mlflow==2.2.2\r\n \r\n notebook \r\n matplotlib\r\n"
                 }
             ],
             "date": 1766073419351,
