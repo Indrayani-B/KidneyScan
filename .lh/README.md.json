@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1766073528499,
@@ -136,6 +136,14 @@
                 {
                     "date": 1767114422690,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n Run this to export as env variables:\r\n \r\n ```bash\r\n \r\n-export MLFLOW_TRACKING_URI= https://dagshub.com/indrayanibhujade378/KidneyScan.mlflow \r\n+export MLFLOW_TRACKING_URI=https://dagshub.com/indrayanibhujade378/KidneyScan.mlflow \r\n \r\n export MLFLOW_TRACKING_USERNAME=indrayanibhujade378 \r\n export MLFLOW_TRACKING_PASSWORD=3dfc0c8a648cc74392644e38d6a4e5706441457d \r\n \r\n"
+                },
+                {
+                    "date": 1769514831055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,14 +117,34 @@\n export MLFLOW_TRACKING_USERNAME=indrayanibhujade378 \r\n export MLFLOW_TRACKING_PASSWORD=3dfc0c8a648cc74392644e38d6a4e5706441457d \r\n \r\n ```\r\n+### DVC cmd\r\n \r\n+1. dvc init\r\n+2. dvc repro\r\n+3. dvc dag\r\n \r\n \r\n+## About MLflow & DVC\r\n \r\n+MLflow\r\n \r\n+ - Its Production Grade\r\n+ - Trace all of your expriements\r\n+ - Logging & taging your model\r\n \r\n+\r\n+DVC \r\n+\r\n+ - Its very lite weight for POC only\r\n+ - lite weight expriements tracker\r\n+ - It can perform Orchestration (Creating Pipelines)\r\n+\r\n+\r\n+\r\n+\r\n+\r\n <!-- ## MLflow\r\n \r\n - [Documentation](https://mlflow.org/docs/latest/index.html)\r\n \r\n"
+                },
+                {
+                    "date": 1769514896297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n  - Its Production Grade\r\n  - Trace all of your expriements\r\n  - Logging & taging your model\r\n \r\n-\r\n+dvc\r\n DVC \r\n \r\n  - Its very lite weight for POC only\r\n  - lite weight expriements tracker\r\n"
                 }
             ],
             "date": 1766073528499,
